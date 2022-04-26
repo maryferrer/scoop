@@ -1,13 +1,13 @@
 import './App.css';
-import Login from './Login.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import Login from './Login.js'
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        HEADER - Scoop
-      </header>
-      <Login />
+      <Navbar />
+      {/* <Login /> */}
     </div>
   );
 }
